@@ -1637,19 +1637,19 @@
       "parties":
       [ 
         {
-          "name": "SPD ",
-          "voes": 16194665,
+          "name": "SPD",
+          "votes": 16194665,
           "percentage": 34.2, 
           "seats":222
         },
         {
-          "name": "CDU ",
+          "name": "CDU",
           "votes": 13136740,
           "percentage": 27.8, 
           "seats":180
         },
         {
-          "name": "FDP ",
+          "name": "FDP",
           "votes": 4648144,
           "percentage": 9.8, 
           "seats":61
@@ -1661,19 +1661,19 @@
           "seats":54
         },
         {
-          "name": "GRÜNE ",
+          "name": "GRÜNE",
           "votes":  3838326,
           "percentage": 8.1, 
           "seats":51
         },
         {
-          "name": "CSU ",
+          "name": "CSU",
           "votes": 3494309,
           "percentage": 7.4, 
           "seats":46
         },
         {
-          "name": "NPD ",
+          "name": "NPD",
           "votes": 748568,
           "percentage": 1.6, 
           "seats":0
@@ -1691,20 +1691,20 @@
           "seats":0
         },
         {
-          "name": "FAMILIE ",
+          "name": "FAMILIE",
           "votes": 191842,
           "percentage": 0.4, 
           "seats":0
         },
         {
-          "name": "Die Tierschutzpartei ",
+          "name": "Die Tierschutzpartei",
           "votes":  110603,
           "percentage": 0.2, 
           "seats":0
         },
         {
           "name": "PBC",
-          "votes ": 108605,
+          "votes": 108605,
           "percentage": 0.2, 
           "seats":0
         },
@@ -1715,14 +1715,14 @@
           "seats":0
         },
         {
-          "name": "BüSo ",
+          "name": "BüSo",
           "votes": 35649,
           "percentage": 0.1, 
           "seats":0
         },
         {
           "name": "BP",
-          "votes ": 35543,
+          "votes": 35543,
           "percentage": 0.1, 
           "seats":0
         },
@@ -1733,7 +1733,7 @@
           "seats":0
         },
         {
-          "name": "AGFG ",
+          "name": "AGFG",
           "votes": 21350, 
           "percentage": 0.0, 
           "seats": 0
@@ -1745,13 +1745,13 @@
           "seats": 0
         },
         {
-          "name": "50Plus ",
+          "name": "50Plus",
           "votes": 10536,
           "percentage": 0.0, 
           "seats": 0
         },
         {
-          "name": "Die PARTEI ",
+          "name": "Die PARTEI",
           "votes":  10379,
           "percentage": 0.0,
           "seats": 0
@@ -1763,19 +1763,19 @@
           "seats":0
         },
         {
-          "name": "Deutschland ",
+          "name": "Deutschland",
           "votes":  9643,
           "percentage": 0.0, 
           "seats":0
         },
         {
-          "name": "APPD ",
+          "name": "APPD",
           "votes":  4233,
           "percentage": 0.0, 
           "seats":0
         },
         {
-          "name": "ZENTRUM ",
+          "name": "ZENTRUM",
           "votes":  4010,
           "percentage": 0.0, 
           "seats":0
