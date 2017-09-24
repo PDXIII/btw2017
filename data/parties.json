@@ -1,0 +1,958 @@
+{
+  "parties": [
+    {
+      "name": "SPD",
+      "full_name": "Sozialdemokratische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_Deutschlands",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "CDU",
+      "full_name": "Christlich Demokratische Union Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christlich_Demokratische_Union_Deutschlands",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FDP",
+      "full_name": "Freie Demokratische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Freie_Demokratische_Partei",
+      "color": "yellow",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "CSU",
+      "full_name": "Christlich-Soziale Union in Bayern",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christlich-Soziale_Union_in_Bayern",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "KPD",
+      "full_name": "Kommunistische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Kommunistische_Partei_Deutschlands",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DP",
+      "full_name": "Deutsche Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Partei",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ZENTRUM",
+      "full_name": "Deutsche Zentrumspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Zentrumspartei",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "WAV",
+      "full_name": "Wirtschaftliche Aufbau-Vereinigung",
+      "wiki_link": "https://de.wikipedia.org/wiki/Wirtschaftliche_Aufbau-Vereinigung_(Partei)",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DKP-DRP",
+      "full_name": "Deutsche Konservative Partei – Deutsche Rechtspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Konservative_Partei_–_Deutsche_Rechtspartei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "RSF",
+      "full_name": "Radikal-Soziale Freiheitspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Radikal-Soziale_Freiheitspartei",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "SSW",
+      "full_name": "Südschleswigscher Wählerverband",
+      "wiki_link": "https://de.wikipedia.org/wiki/Südschleswigscher_Wählerverband",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "EVD",
+      "full_name": "Evangelischer Volksdienst",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christlich-Sozialer_Volksdienst",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "RWVP",
+      "full_name": "Rheinisch-Westfälische Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Rheinisch-Westfälische_Volkspartei",
+      "color": "yellow",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Parteilose",
+      "full_name": "Parteilose",
+      "wiki_link": "https://de.wikipedia.org/wiki/Parteiloser",
+      "color": "gray",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GB/BHE",
+      "full_name": "Gesamtdeutscher Block/Bund der Heimatvertriebenen und Entrechteten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutscher_Block/Bund_der_Heimatvertriebenen_und_Entrechteten",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BP",
+      "full_name": "Bayernpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bayernpartei",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GVP",
+      "full_name": "Gesamtdeutsche Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutsche_Volkspartei",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DRP",
+      "full_name": "Deutsche Reichs-Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Reichspartei_(1950)",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DNS",
+      "full_name": "???",
+      "wiki_link": "???",
+      "color": "gray",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FU",
+      "full_name": "Föderalistische Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Föderalistische_Union",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BdD",
+      "full_name": "Bund der Deutschen, Partei für Einheit, Frieden und Freiheit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bund_der_Deutschen,_Partei_für_Einheit,_Frieden_und_Freiheit",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Mittelstand",
+      "full_name": "Union Deutscher Mittelstandsparteien",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutscher_Mittelstand",
+      "color": "yellow",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DG",
+      "full_name": "Deutsche Gemeinschaft",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Gemeinschaft_(Deutschland)",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "VU",
+      "full_name": "Vaterländische Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Vaterländische_Union_(Deutschland)",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GDP",
+      "full_name": "Gesamtdeutsche Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutsche_Partei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DFU",
+      "full_name": "Deutsche Friedens-Union",
+      "wiki_link": "",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "NPD",
+      "full_name": "Nationaldemokratische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Nationaldemokratische_Partei_Deutschlands",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "AUD",
+      "full_name": "Aktionsgemeinschaft Unabhängiger Deutscher",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aktionsgemeinschaft_Unabhängiger_Deutscher",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "CVP",
+      "full_name": "Christliche Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Volkspartei_(1956–1957)",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FSU",
+      "full_name": "Freisozialen Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Humanwirtschaftspartei",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "UAP",
+      "full_name": "Unabhängige Arbeiter-Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Unabhängige_Arbeiter-Partei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "EFP",
+      "full_name": "Europäische Föderalistische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Europäische_Föderalistische_Partei_(historisch)",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ADF",
+      "full_name": "Aktion Demokratischer Fortschritt",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aktion_Demokratischer_Fortschritt",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "EP",
+      "full_name": "Europa Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Europäische_Föderalistische_Partei_(historisch)",
+      "color": "yellow",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GPD",
+      "full_name": "Gesamtdeutsche Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutsche_Partei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DKP",
+      "full_name": "Deutsche Kommunistische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Kommunistische_Partei",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "KBW",
+      "full_name": "Kommunistischer Bund Westdeutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Kommunistischer_Bund_Westdeutschland",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "EAP",
+      "full_name": "Europäische Arbeiter-Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Europäische_Arbeiter-Partei",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "CBV",
+      "full_name": "Christliche Bayerische Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Bayerische_Volkspartei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GIM",
+      "full_name": "Gruppe Internationale Marxisten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gruppe_Internationale_Marxisten",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "AVP",
+      "full_name": "Aktionsgemeinschaft Vierte Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aktionsgemeinschaft_Vierte_Partei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "5%-Block",
+      "full_name": "5%-Block",
+      "wiki_link": "https://de.wikipedia.org/wiki/5%25-Block",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "VL",
+      "full_name": "Vereinigte Linke",
+      "wiki_link": "https://de.wikipedia.org/wiki/Vereinigte_Linke_(1976)",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GRÜNE",
+      "full_name": "Bündnis 90/Die Grünen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_90/Die_Grünen",
+      "color": "green",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Bürgerpartei",
+      "full_name": "Die Bürgerpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Bürgerpartei",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "V",
+      "full_name": "???",
+      "wiki_link": "???",
+      "color": "gray",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ÖDP",
+      "full_name": "Ökologisch-Demokratische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Ökologisch-Demokratische_Partei",
+      "color": "orange",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "USD",
+      "full_name": "Unabhängige Soziale Demokraten",
+      "wiki_link": "???",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BWK",
+      "full_name": "Bund Westdeutscher Kommunisten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bund_Westdeutscher_Kommunisten",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FRAUEN",
+      "full_name": "Feministische Partei Die Frauen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Feministische_Partei_Die_Frauen",
+      "color": "lilac",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Mündige Bürger",
+      "full_name": "Die Mündigen Bürger",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Mündigen_Bürger",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Patrioten",
+      "full_name": "Patrioten für Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Patrioten_für_Deutschland",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "MLPD",
+      "full_name": "Marxistisch-Leninistische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Marxistisch-Leninistische_Partei_Deutschlands",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ASD",
+      "full_name": "Alle Sozialversicherten und Rentner Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Alle_Sozialversicherten_und_Rentner_Deutschlands",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FAP",
+      "full_name": "Freiheitliche Deutsche Arbeiterpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Freiheitliche_Deutsche_Arbeiterpartei",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DSU",
+      "full_name": "Deutsche Soziale Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Soziale_Union",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "LIGA",
+      "full_name": "Christliche Liga – Die Partei für das Leben",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Liga_–_Die_Partei_für_das_Leben",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "CM",
+      "full_name": "Christliche Mitte",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Mitte",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ÖKO-UNION",
+      "full_name": "DEUTSCHE SOLIDARITÄT Union für Umwelt- und Lebensschutz",
+      "wiki_link": "???",
+      "color": "green",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "VAA",
+      "full_name": "Vereinigung der Arbeitskreise für Arbeitnehmerpolitik und Demokratie",
+      "wiki_link": "https://de.wikipedia.org/wiki/Internationale_Sozialistische_Arbeiterorganisation#Vereinigung_der_Arbeitskreise_f.C3.BCr_Arbeitnehmerpolitik_und_Demokratie",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PDS",
+      "full_name": "Partei des Demokratischen Sozialismus",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_des_Demokratischen_Sozialismus",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "KPD(Ost)",
+      "full_name": "Kommunistische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Kommunistische_Partei_Deutschlands_(1990)",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "REP",
+      "full_name": "Die Republikaner",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Republikaner",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "SpAD",
+      "full_name": "Spartakist-Arbeiterpartei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Spartakist-Arbeiterpartei_Deutschlands",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "B90/Gr",
+      "full_name": "Bündnis 90/Die Grünen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_90/Die_Grünen",
+      "color": "green",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DDD",
+      "full_name": "Bund der Deutschen Demokraten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Republikaner#Bund_der_Deutschen_Demokraten",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "GRAUE",
+      "full_name": "Die Grauen – Graue Panther",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Grauen_–_Graue_Panther",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BSA",
+      "full_name": "Bund Sozialistischer Arbeiter",
+      "wiki_link": "https://de.wikipedia.org/wiki/Sozialistische_Gleichheitspartei",
+      "color": "green",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "NATURGESETZ",
+      "full_name": "Naturgesetz Partei, Aufbruch zu neuem Bewusstsein",
+      "wiki_link": "https://de.wikipedia.org/wiki/Naturgesetz_Partei",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Die Tierschutzpartei",
+      "full_name": "Partei Mensch Umwelt Tierschutz",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_Mensch_Umwelt_Tierschutz",
+      "color": "green",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PBC",
+      "full_name": "Partei Bibeltreuer Christen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_Bibeltreuer_Christen",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "STATT Partei",
+      "full_name": "STATT Partei – DIE UNABHÄNGIGEN",
+      "wiki_link": "https://de.wikipedia.org/wiki/Statt_Partei",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "APD",
+      "full_name": "Arbeiter-Arbeiterinnen Partei Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Arbeiter-Arbeiterinnen_Partei_Deutschland",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PASS",
+      "full_name": "Partei der Arbeitswilligen und Sozial Schwachen - Antidiskriminierungsverband",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_der_Arbeitswilligen_und_Sozial_Schwachen",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BüSo",
+      "full_name": "Bürgerrechtsbewegung Solidarität",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bürgerrechtsbewegung_Solidarität",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DVU",
+      "full_name": "Deutsche Volksunion",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Volksunion",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ProDM",
+      "full_name": "Pro Deutsche Mitte – Initiative Pro D-Mark",
+      "wiki_link": "https://de.wikipedia.org/wiki/Pro_Deutsche_Mitte_–_Initiative_Pro_D-Mark",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BFB",
+      "full_name": "Bund freier Bürger",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bund_freier_Bürger",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Die Offensive",
+      "full_name": "Partei Rechtsstaatlicher Offensive",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_Rechtsstaatlicher_Offensive",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "APPD",
+      "full_name": "Anarchistische Pogo-Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Anarchistische_Pogo-Partei_Deutschlands",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "CHANCE 2000",
+      "full_name": "CHANCE 2000",
+      "wiki_link": "https://de.wikipedia.org/wiki/Chance_2000",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FAMILIE",
+      "full_name": "Familien-Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Familien-Partei_Deutschlands",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Nichtwähler",
+      "full_name": "Nichtwähler",
+      "wiki_link": "https://de.wikipedia.org/wiki/Nichtwähler",
+      "color": "gray",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PSG",
+      "full_name": "Partei für Soziale Gleichheit, Sektion der Vierten Internationale",
+      "wiki_link": "https://de.wikipedia.org/wiki/Sozialistische_Gleichheitspartei",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Deutschland",
+      "full_name": "Ab jetzt … Demokratie durch Volksabstimmung",
+      "wiki_link": "https://de.wikipedia.org/wiki/Ab_jetzt_…_Demokratie_durch_Volksabstimmung",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FORUM",
+      "full_name": "Neues Forum",
+      "wiki_link": "https://de.wikipedia.org/wiki/Neues_Forum",
+      "color": "green",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "AB 2000",
+      "full_name": "Partei der Alternativen Bürgerbewegung 2000 Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_der_Alternativen_Bürgerbewegung_2000_Deutschlands",
+      "color": "blue",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DPD",
+      "full_name": "Demokratische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Demokratische_Partei_Deutschlands_(1995)",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "HP",
+      "full_name": "Humanistische Partei (Deutschland)",
+      "wiki_link": "",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Schill",
+      "full_name": "Ronald Schill",
+      "wiki_link": "https://de.wikipedia.org/wiki/Ronald_Schill",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PRG",
+      "full_name": "Partei für RentenGerechtigkeit und Familie",
+      "wiki_link": "https://de.wikipedia.org/wiki/Rentner-Partei#Nachfolgepartei_Partei_f.C3.BCr_RentenGerechtigkeit_und_Familie",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "AUFBRUCH",
+      "full_name": "Aufbruch für Bürgerrechte, Freiheit und Gesundheit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aufbruch_für_Bürgerrechte,_Freiheit_und_Gesundheit",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DIE VIOLETTEN",
+      "full_name": "Die Violetten – für spirituelle Politik",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Violetten_–_für_spirituelle_Politik",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "AGFG",
+      "full_name": "Allianz für Gesundheit, Frieden und soziale Gerechtigkeit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Allianz_für_Gesundheit,_Frieden_und_soziale_Gerechtigkeit",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "50Plus",
+      "full_name": "50Plus Das Generationen-Bündnis",
+      "wiki_link": "https://de.wikipedia.org/wiki/50Plus_Das_Generationen-Bündnis",
+      "color": "pink",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "Die PARTEI",
+      "full_name": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_für_Arbeit,_Rechtsstaat,_Tierschutz,_Elitenförderung_und_basisdemokratische_Initiative",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "RRP",
+      "full_name": "Bündnis 21/RRP",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_21/RRP",
+      "color": "orange",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "RENTNER",
+      "full_name": "Rentner Partei Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Rentner_Partei_Deutschland",
+      "color": "orange",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "DIE LINKE",
+      "full_name": "DIE LINKE",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Linke",
+      "color": "red",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "FWD",
+      "full_name": "Freie Wähler Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Freie_Wähler_(Bundesvereinigung)",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PIRATEN",
+      "full_name": "Priratenpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Piratenpartei_Deutschland",
+      "color": "orange",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "ADM",
+      "full_name": "Allianz der Mitte",
+      "wiki_link": "https://de.wikipedia.org/wiki/Allianz_der_Mitte",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "pro Deutschland",
+      "full_name": "Bürgerbewegung pro Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bürgerbewegung_pro_Deutschland",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "PARTEI DER VERNUNFT",
+      "full_name": "Partei der Vernunft",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_der_Vernunft",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "BIG",
+      "full_name": "Bündnis für Innovation & Gerechtigkeit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_für_Innovation_und_Gerechtigkeit",
+      "color": "black",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    },
+    {
+      "name": "AfD",
+      "full_name": "Alternative für Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Alternative_für_Deutschland",
+      "color": "brown",
+      "votes": [],
+      "percentage": [],
+      "seats": []
+    }
+  ]
+}

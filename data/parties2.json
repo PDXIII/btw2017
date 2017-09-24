@@ -1,0 +1,958 @@
+{
+  "parties": [
+    {
+      "name": "SPD",
+      "full_name": "Sozialdemokratische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Sozialdemokratische_Partei_Deutschlands",
+      "color": "red",
+      "votes": [ 6934975, 7944943, 9495571, 11427355, 12813186, 14065716, 17175169, 16099019, 16260677, 14865807, 14025763, 15545366, 17140354, 20181269, 18488668, 16194665, 9990488, 11252215],
+      "percentage": [ 29.2, 28.8, 31.8, 36.2, 39.3, 42.7, 45.8, 42.6, 42.9, 38.2, 37, 33.5, 36.4, 40.9, 38.5, 34.2, 23, 25.7],
+      "seats": [ 140, 162, 181, 203, 217, 237, 242, 224, 228, 202, 193, 239, 252, 298, 251, 222, 146, 193]
+    },
+    {
+      "name": "CDU",
+      "full_name": "Christlich Demokratische Union Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christlich_Demokratische_Union_Deutschlands",
+      "color": "black",
+      "votes": [ 5987636, 10016594, 11875339, 11283901, 12387562, 12079535, 13190837, 14367302, 12989200, 14857680, 13045745, 17055116, 16089960, 14004908, 14167561, 13136740, 11828277, 14921877],
+      "percentage": [ 25.2, 36.4, 39.7, 35.8, 38, 36.6, 35.2, 38, 34.2, 38.2, 34.5, 36.7, 34.2, 28.4, 29.5, 27.8, 27.3, 34.1],
+      "seats": [ 120, 197, 222, 201, 202, 201, 186, 201, 185, 202, 185, 268, 244, 198, 190, 180, 194, 255]
+    },
+    {
+      "name": "FDP",
+      "full_name": "Freie Demokratische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Freie_Demokratische_Partei",
+      "color": "yellow",
+      "votes": [ 2829920, 2629163, 2307135, 4028766, 3096739, 1903422, 3129982, 2995085, 4030999, 2706942, 3440911, 5123233, 3258407, 3080955, 3538815, 4648144, 6316080, 2083533],
+      "percentage": [ 11.9, 9.5, 7.7, 12.8, 9.5, 5.8, 8.4, 7.9, 10.6, 7, 9.1, 11, 6.9, 6.2, 7.4, 9.8, 14.6, 4.8],
+      "seats": [ 57, 53, 44, 67, 50, 31, 42, 40, 54, 35, 48, 79, 47, 43, 47, 61, 93, 0]
+    },
+    {
+      "name": "CSU",
+      "full_name": "Christlich-Soziale Union in Bayern",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christlich-Soziale_Union_in_Bayern",
+      "color": "blue",
+      "votes": [ 1380448, 2427387, 3133060, 3014471, 3136506, 3115652, 3615183, 4027499, 3908459, 4140865, 3715827, 3302980, 3427196, 3324480, 4315080, 3494309, 2830238, 3243569],
+      "percentage": [ 5.8, 8.8, 10.5, 9.6, 9.6, 9.5, 9.7, 10.6, 10.3, 10.6, 9.8, 7.1, 7.3, 6.7, 9, 7.4, 6.5, 7.4],
+      "seats": [ 24, 52, 55, 50, 49, 49, 48, 53, 52, 53, 49, 51, 50, 47, 58, 46, 45, 66]
+    },
+    {
+      "name": "KPD",
+      "full_name": "Kommunistische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Kommunistische_Partei_Deutschlands",
+      "color": "red",
+      "votes": [ 1361706, 607860, null, null, null, null, null, 22714, null, 3431, null, null, null, null, null, null, null, null],
+      "percentage": [ 5.7, 2.2, null, null, null, null, null, 0.1, null, 0, null, null, null, null, null, null, null, null],
+      "seats": [ 15, 0, null, null, null, null, null, 0, null, 0, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DP",
+      "full_name": "Deutsche Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Partei",
+      "color": "black",
+      "votes": [ 939934, 896128, 1007282, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 4, 3.3, 3.4, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 17, 15, 17, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "ZENTRUM",
+      "full_name": "Deutsche Zentrumspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Zentrumspartei",
+      "color": "blue",
+      "votes": [ 727505, 217078, null, null, null, 15933, null, null, null, null, 19035, null, 3757, null, 3127, 4010, 6087, null],
+      "percentage": [ 3.1, 0.8, null, null, null, 0, null, null, null, null, 0.1, null, 0, null, 0, 0, 0, null],
+      "seats": [ 10, 3, null, null, null, 0, null, null, null, null, 0, null, 0, null, 0, 0, 0, null]
+    },
+    {
+      "name": "WAV",
+      "full_name": "Wirtschaftliche Aufbau-Vereinigung",
+      "wiki_link": "https://de.wikipedia.org/wiki/Wirtschaftliche_Aufbau-Vereinigung_(Partei)",
+      "color": "black",
+      "votes": [ 681888, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 2.9, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 12, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DKP-DRP",
+      "full_name": "Deutsche Konservative Partei – Deutsche Rechtspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Konservative_Partei_–_Deutsche_Rechtspartei",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "RSF",
+      "full_name": "Radikal-Soziale Freiheitspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Radikal-Soziale_Freiheitspartei",
+      "color": "red",
+      "votes": [ 216749, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 0.9, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "SSW",
+      "full_name": "Südschleswigscher Wählerverband",
+      "wiki_link": "https://de.wikipedia.org/wiki/Südschleswigscher_Wählerverband",
+      "color": "blue",
+      "votes": [ 75388, 44585, 32262, 25449, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 0.3, 0.2, 0.1, 0.1, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 1, 0, 0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "EVD",
+      "full_name": "Evangelischer Volksdienst",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christlich-Sozialer_Volksdienst",
+      "color": "black",
+      "votes": [ 26162, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 0.1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "RWVP",
+      "full_name": "Rheinisch-Westfälische Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Rheinisch-Westfälische_Volkspartei",
+      "color": "yellow",
+      "votes": [ 21931, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 0.1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "Parteilose",
+      "full_name": "Parteilose",
+      "wiki_link": "https://de.wikipedia.org/wiki/Parteiloser",
+      "color": "gray",
+      "votes": [ 1141647, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ 4.8, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ 3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "GB/BHE",
+      "full_name": "Gesamtdeutscher Block/Bund der Heimatvertriebenen und Entrechteten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutscher_Block/Bund_der_Heimatvertriebenen_und_Entrechteten",
+      "color": "brown",
+      "votes": [ null, 1616953, 1374066, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, 5.9, 4.6, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, 27, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "BP",
+      "full_name": "Bayernpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bayernpartei",
+      "color": "blue",
+      "votes": [ null, 465641, null, null, null, 49694, null, null, null, null, 26367, 31315, 42491, 28107, 9379, 35543, 48311, 57395],
+      "percentage": [ null, 1.7, null, null, null, 0.2, null, null, null, null, 0.1, 0.1, 0.1, 0.1, 0, 0.1, 0.1, 0.1],
+      "seats": [ null, 0, null, null, null, 0, null, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "GVP",
+      "full_name": "Gesamtdeutsche Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutsche_Volkspartei",
+      "color": "blue",
+      "votes": [ null, 318475, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, 1.2, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DRP",
+      "full_name": "Deutsche Reichs-Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Reichspartei_(1950)",
+      "color": "brown",
+      "votes": [ null, 295739, 308564, 262977, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, 1.1, 1, 0.8, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, 0, 0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DNS",
+      "full_name": "???",
+      "wiki_link": "???",
+      "color": "gray",
+      "votes": [ null, 70726, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, 0.3, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "FU",
+      "full_name": "Föderalistische Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Föderalistische_Union",
+      "color": "black",
+      "votes": [ null, null, 254322, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, 0.9, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "BdD",
+      "full_name": "Bund der Deutschen, Partei für Einheit, Frieden und Freiheit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bund_der_Deutschen,_Partei_für_Einheit,_Frieden_und_Freiheit",
+      "color": "red",
+      "votes": [ null, null, 58725, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, 0.2, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "Mittelstand",
+      "full_name": "Union Deutscher Mittelstandsparteien",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutscher_Mittelstand",
+      "color": "yellow",
+      "votes": [ null, null, 36592, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, 0.1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DG",
+      "full_name": "Deutsche Gemeinschaft",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Gemeinschaft_(Deutschland)",
+      "color": "brown",
+      "votes": [ null, null, 17490, 27308, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, 0.1, 0.1, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, 0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "VU",
+      "full_name": "Vaterländische Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Vaterländische_Union_(Deutschland)",
+      "color": "brown",
+      "votes": [ null, null, 5020, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "GDP",
+      "full_name": "Gesamtdeutsche Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutsche_Partei",
+      "color": "brown",
+      "votes": [ null, null, null, 870756, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, 2.8, null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DFU",
+      "full_name": "Deutsche Friedens-Union",
+      "wiki_link": "",
+      "color": "red",
+      "votes": [ null, null, null, 609918, 434182, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, 1.9, 1.3, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, 0, 0, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "NPD",
+      "full_name": "Nationaldemokratische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Nationaldemokratische_Partei_Deutschlands",
+      "color": "brown",
+      "votes": [ null, null, null, null, 664193, 1422010, 207465, 122661, 68096, 91095, 227054, 145776, null, 126571, 215232, 748568, 635525, 560828],
+      "percentage": [ null, null, null, null, 2, 4.3, 0.6, 0.3, 0.2, 0.2, 0.6, 0.3, null, 0.3, 0.4, 1.6, 1.5, 1.3],
+      "seats": [ null, null, null, null, 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "AUD",
+      "full_name": "Aktionsgemeinschaft Unabhängiger Deutscher",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aktionsgemeinschaft_Unabhängiger_Deutscher",
+      "color": "blue",
+      "votes": [ null, null, null, null, 52637, null, null, 22202, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, 0.2, null, null, 0.1, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, 0, null, null, 0, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "CVP",
+      "full_name": "Christliche Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Volkspartei_(1956–1957)",
+      "color": "blue",
+      "votes": [ null, null, null, null, 19832, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, 0.1, null, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "FSU",
+      "full_name": "Freisozialen Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Humanwirtschaftspartei",
+      "color": "blue",
+      "votes": [ null, null, null, null, 10631, 16371, 3166, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, 0, 0, 0, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, 0, 0, 0, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "UAP",
+      "full_name": "Unabhängige Arbeiter-Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Unabhängige_Arbeiter-Partei",
+      "color": "brown",
+      "votes": [ null, null, null, null, 3959, 5309, null, 765, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, 0, 0, null, 0, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, 0, 0, null, 0, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "EFP",
+      "full_name": "Europäische Föderalistische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Europäische_Föderalistische_Partei_(historisch)",
+      "color": "blue",
+      "votes": [ null, null, null, null, 1015, null, 24057, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, 0, null, 0.1, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, 0, null, 0, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "ADF",
+      "full_name": "Aktion Demokratischer Fortschritt",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aktion_Demokratischer_Fortschritt",
+      "color": "red",
+      "votes": [ null, null, null, null, null, 197331, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, 0.6, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "EP",
+      "full_name": "Europa Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Europäische_Föderalistische_Partei_(historisch)",
+      "color": "yellow",
+      "votes": [ null, null, null, null, null, 49650, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, 0.2, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "GPD",
+      "full_name": "Gesamtdeutsche Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gesamtdeutsche_Partei",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, 45401, null, null, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, 0.1, null, null, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DKP",
+      "full_name": "Deutsche Kommunistische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Kommunistische_Partei",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, 113891, 118581, 71600, 64986, null, null, null, null, null, null, 1894, null],
+      "percentage": [ null, null, null, null, null, null, 0.3, 0.3, 0.2, 0.2, null, null, null, null, null, null, 0, null],
+      "seats": [ null, null, null, null, null, null, 0, 0, 0, 0, null, null, null, null, null, null, 0, null]
+    },
+    {
+      "name": "KBW",
+      "full_name": "Kommunistischer Bund Westdeutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Kommunistischer_Bund_Westdeutschland",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, 20018, 8174, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0.1, 0, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, 0, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "EAP",
+      "full_name": "Europäische Arbeiter-Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Europäische_Arbeiter-Partei",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, 6811, 7666, 14966, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0, 0, 0, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, 0, 0, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "CBV",
+      "full_name": "Christliche Bayerische Volkspartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Bayerische_Volkspartei",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, 6720, 3946, 10994, 5282, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0, 0, 0, 0, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, 0, 0, 0, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "GIM",
+      "full_name": "Gruppe Internationale Marxisten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Gruppe_Internationale_Marxisten",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, 4759, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "AVP",
+      "full_name": "Aktionsgemeinschaft Vierte Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aktionsgemeinschaft_Vierte_Partei",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, 4723, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "5%-Block",
+      "full_name": "5%-Block",
+      "wiki_link": "https://de.wikipedia.org/wiki/5%25-Block",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, 2940, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "VL",
+      "full_name": "Vereinigte Linke",
+      "wiki_link": "https://de.wikipedia.org/wiki/Vereinigte_Linke_(1976)",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, 701, null, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "GRÜNE",
+      "full_name": "Bündnis 90/Die Grünen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_90/Die_Grünen",
+      "color": "green",
+      "votes": [ null, null, null, null, null, null, null, null, 569589, 2167431, 3126256, 1788200, 3424315, 3301624, 4110355, 3838326, 4643272, 3694057],
+      "percentage": [ null, null, null, null, null, null, null, null, 1.5, 5.6, 8.3, 3.8, 7.3, 6.7, 8.6, 8.1, 10.7, 8.4],
+      "seats": [ null, null, null, null, null, null, null, null, 0, 28, 44, 0, 49, 47, 55, 51, 68, 63]
+    },
+    {
+      "name": "Bürgerpartei",
+      "full_name": "Die Bürgerpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Bürgerpartei",
+      "color": "blue",
+      "votes": [ null, null, null, null, null, null, null, null, 11256, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "V",
+      "full_name": "???",
+      "wiki_link": "???",
+      "color": "gray",
+      "votes": [ null, null, null, null, null, null, null, null, 9319, null, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "ÖDP",
+      "full_name": "Ökologisch-Demokratische Partei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Ökologisch-Demokratische_Partei",
+      "color": "orange",
+      "votes": [ null, null, null, null, null, null, null, null, null, 11028, 109152, 205206, 183715, null, null, null, null, 127088],
+      "percentage": [ null, null, null, null, null, null, null, null, null, 0, 0.3, 0.4, 0.4, null, null, null, null, 0.3],
+      "seats": [ null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, null, null, null, null, 0]
+    },
+    {
+      "name": "USD",
+      "full_name": "Unabhängige Soziale Demokraten",
+      "wiki_link": "???",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, 3333, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "BWK",
+      "full_name": "Bund Westdeutscher Kommunisten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bund_Westdeutscher_Kommunisten",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, 2129, null, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "FRAUEN",
+      "full_name": "Feministische Partei Die Frauen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Feministische_Partei_Die_Frauen",
+      "color": "lilac",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, 62904, 12077, null, 30094, 36832, 27497, null, 12148],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, 0.2, 0, null, 0.1, 0.1, 0.1, null, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, 0, 0, null, 0, 0, 0, null, 0]
+    },
+    {
+      "name": "Mündige Bürger",
+      "full_name": "Die Mündigen Bürger",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Mündigen_Bürger",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, 24630, 492, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, 0.1, 0, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "Patrioten",
+      "full_name": "Patrioten für Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Patrioten_für_Deutschland",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, 22732, 4687, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, 0.1, 0, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "MLPD",
+      "full_name": "Marxistisch-Leninistische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Marxistisch-Leninistische_Partei_Deutschlands",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, 13422, null, 10038, 4731, null, null, 29261, 24219],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0, null, null, 0.1, 0.1],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0, null, null, 0, 0]
+    },
+    {
+      "name": "ASD",
+      "full_name": "Alle Sozialversicherten und Rentner Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Alle_Sozialversicherten_und_Rentner_Deutschlands",
+      "color": "blue",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, 1834, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "FAP",
+      "full_name": "Freiheitliche Deutsche Arbeiterpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Freiheitliche_Deutsche_Arbeiterpartei",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, 405, null, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, null]
+    },
+    {
+      "name": "DSU",
+      "full_name": "Deutsche Soziale Union",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Soziale_Union",
+      "color": "blue",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 89008, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0.2, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "LIGA",
+      "full_name": "Christliche Liga – Die Partei für das Leben",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Liga_–_Die_Partei_für_das_Leben",
+      "color": "blue",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 39640, 5195, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0.1, 0, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null, null]
+    },
+    {
+      "name": "CM",
+      "full_name": "Christliche Mitte",
+      "wiki_link": "https://de.wikipedia.org/wiki/Christliche_Mitte",
+      "color": "blue",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 36446, 19887, 23619, 15440, null, 6826, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0.1, 0, 0, 0, null, 0, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, null, 0, null]
+    },
+    {
+      "name": "ÖKO-UNION",
+      "full_name": "DEUTSCHE SOLIDARITÄT Union für Umwelt- und Lebensschutz",
+      "wiki_link": "???",
+      "color": "green",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 4661, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "VAA",
+      "full_name": "Vereinigung der Arbeitskreise für Arbeitnehmerpolitik und Demokratie",
+      "wiki_link": "https://de.wikipedia.org/wiki/Internationale_Sozialistische_Arbeiterorganisation#Vereinigung_der_Arbeitskreise_f.C3.BCr_Arbeitnehmerpolitik_und_Demokratie",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 4530, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "PDS",
+      "full_name": "Partei des Demokratischen Sozialismus",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_des_Demokratischen_Sozialismus",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 1129578, 2066176, 2515454, 1916702, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 2.4, 4.4, 5.1, 4, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 17, 30, 36, 2, null, null, null]
+    },
+    {
+      "name": "KPD(Ost)",
+      "full_name": "Kommunistische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Kommunistische_Partei_Deutschlands_(1990)",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 1630, null, null, 1624, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, 0, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, 0, null, null, null]
+    },
+    {
+      "name": "REP",
+      "full_name": "Die Republikaner",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Republikaner",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 987269, 875239, 906383, 280671, 266101, 193396, 91193],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 2.1, 1.9, 1.8, 0.6, 0.6, 0.4, 0.2],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "SpAD",
+      "full_name": "Spartakist-Arbeiterpartei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Spartakist-Arbeiterpartei_Deutschlands",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 1610, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "B90/Gr",
+      "full_name": "Bündnis 90/Die Grünen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_90/Die_Grünen",
+      "color": "green",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 559207, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 1.2, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 8, null, null, null, null, null, null]
+    },
+    {
+      "name": "DDD",
+      "full_name": "Bund der Deutschen Demokraten",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Republikaner#Bund_der_Deutschen_Demokraten",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 1009, null, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null, null]
+    },
+    {
+      "name": "GRAUE",
+      "full_name": "Die Grauen – Graue Panther",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Grauen_–_Graue_Panther",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 385910, 238642, 152557, 114224, 198601, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0.8, 0.5, 0.3, 0.2, 0.4, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0, null, null]
+    },
+    {
+      "name": "BSA",
+      "full_name": "Bund Sozialistischer Arbeiter",
+      "wiki_link": "https://de.wikipedia.org/wiki/Sozialistische_Gleichheitspartei",
+      "color": "green",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, 826, 1285, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null, null]
+    },
+    {
+      "name": "NATURGESETZ",
+      "full_name": "Naturgesetz Partei, Aufbruch zu neuem Bewusstsein",
+      "wiki_link": "https://de.wikipedia.org/wiki/Naturgesetz_Partei",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 73193, 30619, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0.2, 0.1, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null]
+    },
+    {
+      "name": "Die Tierschutzpartei",
+      "full_name": "Partei Mensch Umwelt Tierschutz",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_Mensch_Umwelt_Tierschutz",
+      "color": "green",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 71643, 133832, 159655, 110603, 230872, 140366],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0.2, 0.3, 0.3, 0.2, 0.5, 0.3],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "PBC",
+      "full_name": "Partei Bibeltreuer Christen",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_Bibeltreuer_Christen",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 65651, 71941, 101645, 108605, 40370, 18542],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0.1, 0.1, 0.2, 0.2, 0.1, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "STATT Partei",
+      "full_name": "STATT Partei – DIE UNABHÄNGIGEN",
+      "wiki_link": "https://de.wikipedia.org/wiki/Statt_Partei",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 63354, null, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0.1, null, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null, null]
+    },
+    {
+      "name": "APD",
+      "full_name": "Arbeiter-Arbeiterinnen Partei Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Arbeiter-Arbeiterinnen_Partei_Deutschland",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 21533, 6759, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null]
+    },
+    {
+      "name": "PASS",
+      "full_name": "Partei der Arbeitswilligen und Sozial Schwachen - Antidiskriminierungsverband",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_der_Arbeitswilligen_und_Sozial_Schwachen",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 15040, 5556, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null, null]
+    },
+    {
+      "name": "BüSo",
+      "full_name": "Bürgerrechtsbewegung Solidarität",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bürgerrechtsbewegung_Solidarität",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, 8103, 9662, 16958, 35649, 38706, 12814],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0.1, 0.1, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "DVU",
+      "full_name": "Deutsche Volksunion",
+      "wiki_link": "https://de.wikipedia.org/wiki/Deutsche_Volksunion",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 601192, null, null, 45752, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 1.2, null, null, 0.1, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, 0, null]
+    },
+    {
+      "name": "ProDM",
+      "full_name": "Pro Deutsche Mitte – Initiative Pro D-Mark",
+      "wiki_link": "https://de.wikipedia.org/wiki/Pro_Deutsche_Mitte_–_Initiative_Pro_D-Mark",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 430099, null, 10269, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0.9, null, 0, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, null, null]
+    },
+    {
+      "name": "BFB",
+      "full_name": "Bund freier Bürger",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bund_freier_Bürger",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 28107, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0.1, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null]
+    },
+    {
+      "name": "Die Offensive",
+      "full_name": "Partei Rechtsstaatlicher Offensive",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_Rechtsstaatlicher_Offensive",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 121196, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0.2, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null]
+    },
+    {
+      "name": "APPD",
+      "full_name": "Anarchistische Pogo-Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Anarchistische_Pogo-Partei_Deutschlands",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 35242, null, 4233, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0.1, null, 0, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, null, null]
+    },
+    {
+      "name": "CHANCE 2000",
+      "full_name": "CHANCE 2000",
+      "wiki_link": "https://de.wikipedia.org/wiki/Chance_2000",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 28566, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0.1, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null]
+    },
+    {
+      "name": "FAMILIE",
+      "full_name": "Familien-Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Familien-Partei_Deutschlands",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 24825, 30045, 191842, 120718, 7449],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0.1, 0.1, 0.4, 0.3, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, 0, 0, 0]
+    },
+    {
+      "name": "Nichtwähler",
+      "full_name": "Nichtwähler",
+      "wiki_link": "https://de.wikipedia.org/wiki/Nichtwähler",
+      "color": "gray",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 6827, null, null, null, 11349],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, 0]
+    },
+    {
+      "name": "PSG",
+      "full_name": "Partei für Soziale Gleichheit, Sektion der Vierten Internationale",
+      "wiki_link": "https://de.wikipedia.org/wiki/Sozialistische_Gleichheitspartei",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 6226, null, 15605, 2957, 4564],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0, 0]
+    },
+    {
+      "name": "Deutschland",
+      "full_name": "Ab jetzt … Demokratie durch Volksabstimmung",
+      "wiki_link": "https://de.wikipedia.org/wiki/Ab_jetzt_…_Demokratie_durch_Volksabstimmung",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 6196, null, 9643, 23015, 28654],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0.1, 0.1],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0, 0]
+    },
+    {
+      "name": "FORUM",
+      "full_name": "Neues Forum",
+      "wiki_link": "https://de.wikipedia.org/wiki/Neues_Forum",
+      "color": "green",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 4543, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null]
+    },
+    {
+      "name": "AB 2000",
+      "full_name": "Partei der Alternativen Bürgerbewegung 2000 Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_der_Alternativen_Bürgerbewegung_2000_Deutschlands",
+      "color": "blue",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 3355, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null]
+    },
+    {
+      "name": "DPD",
+      "full_name": "Demokratische Partei Deutschlands",
+      "wiki_link": "https://de.wikipedia.org/wiki/Demokratische_Partei_Deutschlands_(1995)",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 2432, null, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null, null]
+    },
+    {
+      "name": "HP",
+      "full_name": "Humanistische Partei (Deutschland)",
+      "wiki_link": "",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 435, 2485, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, 0, 0, null, null, null]
+    },
+    {
+      "name": "Schill",
+      "full_name": "Ronald Schill",
+      "wiki_link": "https://de.wikipedia.org/wiki/Ronald_Schill",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 400476, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0.8, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null]
+    },
+    {
+      "name": "PRG",
+      "full_name": "Partei für RentenGerechtigkeit und Familie",
+      "wiki_link": "https://de.wikipedia.org/wiki/Rentner-Partei#Nachfolgepartei_Partei_f.C3.BCr_RentenGerechtigkeit_und_Familie",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 7499, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null]
+    },
+    {
+      "name": "AUFBRUCH",
+      "full_name": "Aufbruch für Bürgerrechte, Freiheit und Gesundheit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Aufbruch_für_Bürgerrechte,_Freiheit_und_Gesundheit",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 4697, null, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, null]
+    },
+    {
+      "name": "DIE VIOLETTEN",
+      "full_name": "Die Violetten – für spirituelle Politik",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Violetten_–_für_spirituelle_Politik",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2412, null, 31957, 8211],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0.1, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0, 0]
+    },
+    {
+      "name": "AGFG",
+      "full_name": "Allianz für Gesundheit, Frieden und soziale Gerechtigkeit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Allianz_für_Gesundheit,_Frieden_und_soziale_Gerechtigkeit",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 21350, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null]
+    },
+    {
+      "name": "50Plus",
+      "full_name": "50Plus Das Generationen-Bündnis",
+      "wiki_link": "https://de.wikipedia.org/wiki/50Plus_Das_Generationen-Bündnis",
+      "color": "pink",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 10536, null, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null]
+    },
+    {
+      "name": "Die PARTEI",
+      "full_name": "Partei für Arbeit, Rechtsstaat, Tierschutz, Elitenförderung und basisdemokratische Initiative",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_für_Arbeit,_Rechtsstaat,_Tierschutz,_Elitenförderung_und_basisdemokratische_Initiative",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 10379, null, 78674],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0.2],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 0]
+    },
+    {
+      "name": "RRP",
+      "full_name": "Bündnis 21/RRP",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_21/RRP",
+      "color": "orange",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 100605, 8578],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0.2, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, 0]
+    },
+    {
+      "name": "RENTNER",
+      "full_name": "Rentner Partei Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Rentner_Partei_Deutschland",
+      "color": "orange",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 56399, 25134],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0.1, 0.1],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, 0]
+    },
+    {
+      "name": "DIE LINKE",
+      "full_name": "DIE LINKE",
+      "wiki_link": "https://de.wikipedia.org/wiki/Die_Linke",
+      "color": "red",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 4118194, 5155933, 3755699],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 8.7, 11.9, 8.6],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 54, 76, 4]
+    },
+    {
+      "name": "FWD",
+      "full_name": "Freie Wähler Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Freie_Wähler_(Bundesvereinigung)",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 11243, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null]
+    },
+    {
+      "name": "PIRATEN",
+      "full_name": "Priratenpartei",
+      "wiki_link": "https://de.wikipedia.org/wiki/Piratenpartei_Deutschland",
+      "color": "orange",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 847870, 959177],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2, 2.2],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, 0]
+    },
+    {
+      "name": "ADM",
+      "full_name": "Allianz der Mitte",
+      "wiki_link": "https://de.wikipedia.org/wiki/Allianz_der_Mitte",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2889, null],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null]
+    },
+    {
+      "name": "pro Deutschland",
+      "full_name": "Bürgerbewegung pro Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bürgerbewegung_pro_Deutschland",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 73854],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0.2],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0]
+    },
+    {
+      "name": "PARTEI DER VERNUNFT",
+      "full_name": "Partei der Vernunft",
+      "wiki_link": "https://de.wikipedia.org/wiki/Partei_der_Vernunft",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 24719],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0.1],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0]
+    },
+    {
+      "name": "BIG",
+      "full_name": "Bündnis für Innovation & Gerechtigkeit",
+      "wiki_link": "https://de.wikipedia.org/wiki/Bündnis_für_Innovation_und_Gerechtigkeit",
+      "color": "black",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 17743],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0]
+    },
+    {
+      "name": "AfD",
+      "full_name": "Alternative für Deutschland",
+      "wiki_link": "https://de.wikipedia.org/wiki/Alternative_für_Deutschland",
+      "color": "brown",
+      "votes": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 2056985],
+      "percentage": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 4.7],
+      "seats": [ null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0]
+    }
+  ]
+}
