@@ -13,13 +13,17 @@ class ElectionItem extends React.Component {
     }
     
     this.getParties = this.getParties.bind(this);
-    this.getVotes = this.getVotes.bind(this);
+    this.getDataset = this.getDataset.bind(this);
+    this.getColors = this.getColors.bind(this);
   }
   
   componentWillMount () {
+    let sortedParties = _.reverse(_.sortBy(this.props.data.parties, party => party.votes))
+    let parties = this.getParties(sortedParties);
+    let dataset = this.getDataset(sortedParties)
     this.setState({
-      labels: this.getParties(this.props.data.parties),
-      datasets: this.getVotes(this.props.data.parties),
+      labels: parties,
+      datasets: dataset,
     })
   }
   
@@ -28,21 +32,34 @@ class ElectionItem extends React.Component {
     _.each(propParties, (party) => (
       parties.push(party.name)
     ))
-    console.log(parties)
     return parties;
   }
   
-  getVotes (propParties) {
+  getDataset (sortedParties) {
     let votes = [];
-    _.each(propParties, (party) => (
+    _.each(sortedParties, (party) => (
       votes.push(party.votes)
     ))
-    console.log(votes)
     return [{
         label: '# of Votes',
         data: votes,
-        borderWidth: 1
+        borderWidth: 0,
+        backgroundColor: this.getColors(sortedParties, this.props.parties)
     }];
+  }
+  
+  getColors(sortedParties, allParties) {
+    var colors = [];
+    _.map(sortedParties, (sortedParty => {
+      let result = _.find(allParties, (allParty =>  {
+      return  allParty.name === sortedParty.name;
+      }
+      ));
+      
+      result ? colors.push(result.color) : 1;
+    }))
+    
+    return colors;
   }
   
   render () {
@@ -52,7 +69,10 @@ class ElectionItem extends React.Component {
         <h4>
           {this.props.data.year}
           
-          <Pie data={{"labels":this.state.labels, "datasets":this.state.datasets}}/>
+          <Pie 
+            data={{"labels":this.state.labels, "datasets":this.state.datasets}}
+            options={{"legend":{"display": false}}}
+          />
         </h4>
       </div>
     )

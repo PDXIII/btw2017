@@ -6,7 +6,8 @@ const url = "./data/GermanElections.json";
 var sortData = response => {
   return {
   title: response.data.title,
-  elections: response.data.elections
+  elections: response.data.elections,
+  parties: response.data.parties
 };};
 
 export default {

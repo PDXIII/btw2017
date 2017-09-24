@@ -20,7 +20,8 @@ class App extends Component {
     
     this.state = {
       subtitle: "",
-      elections: []
+      elections: [],
+      parties: []
     }
   }
   
@@ -28,12 +29,11 @@ class App extends Component {
     api.get.then( result => {
       this.setState({
         subtitle: result.title,
-        elections: result.elections
+        elections: result.elections,
+        parties: result.parties
       })
     })
   }
-  
-  
   
   render() {
     return (
@@ -44,7 +44,7 @@ class App extends Component {
         </div>
         <section className="stage">
         { this.state.elections.map(item => (
-          <ElectionItem data={item} key={item.id}/>
+          <ElectionItem parties={this.state.parties} data={item} key={item.id}/>
         )) }
         </section>
       </div>
